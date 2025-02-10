@@ -1,0 +1,41 @@
+.canvas{
+    border: 2px solid black;
+}
+.top , .bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.block , input , select , button {
+    width: 80%;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.top>block{
+    margin: 10px;
+}
+.bottom>button{
+    margin: 10px;
+}
+.block>p{
+    margin: 10px auto;
+    width: 50%;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn:hover{
+    background-color: #0056b3;
+}
